@@ -1,19 +1,22 @@
-import '/albuns/components/list_albums_component/list_albums_component_widget.dart';
-import '/auth/firebase_auth/auth_util.dart';
-import '/backend/backend.dart';
-import '/comments/comments_bottom_sheet_component/comments_bottom_sheet_component_widget.dart';
-import '/components/description_component/description_component_widget.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_toggle_icon.dart';
-import '/flutter_flow/flutter_flow_util.dart';
 import 'dart:async';
-import '/custom_code/actions/index.dart' as actions;
+
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:lottie/lottie.dart';
+
+import '/albuns/components/list_albums_component/list_albums_component_widget.dart';
+import '/auth/firebase_auth/auth_util.dart';
+import '/backend/backend.dart';
+import '/comments/comments_bottom_sheet_component/comments_bottom_sheet_component_widget.dart';
+import '/components/description_component/description_component_widget.dart';
+import '/custom_code/actions/index.dart' as actions;
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_toggle_icon.dart';
+import '/flutter_flow/flutter_flow_util.dart';
 import 'photo_in_mural_component_model.dart';
+
 export 'photo_in_mural_component_model.dart';
 
 class PhotoInMuralComponentWidget extends StatefulWidget {
@@ -173,7 +176,7 @@ class _PhotoInMuralComponentWidgetState
         ),
         Container(
           width: double.infinity,
-          height: 500.0,
+          height: 700.0,
           decoration: BoxDecoration(
             color: FlutterFlowTheme.of(context).secondaryBackground,
           ),
@@ -262,7 +265,7 @@ class _PhotoInMuralComponentWidgetState
                         'https://firebasestorage.googleapis.com/v0/b/event-photo-04072025.appspot.com/o/admin%2Fassets%2Fno_picture(2).png?alt=media&token=7a0e679d-8b75-488d-a4d1-ef83d07fc4f4',
                       ),
                       width: double.infinity,
-                      height: 500.0,
+                      height: 700.0,
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -677,8 +680,7 @@ class _PhotoInMuralComponentWidgetState
                                         child: DescriptionComponentWidget(
                                           ownerName:
                                               _model.photoOwner!.displayName,
-                                          decription:
-                                              widget.photo!.description,
+                                          decription: widget.photo!.description,
                                         ),
                                       ),
                                     );
