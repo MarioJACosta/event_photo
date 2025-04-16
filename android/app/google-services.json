@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "520447223276",
+    "project_id": "event-photo-04072025",
+    "storage_bucket": "event-photo-04072025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520447223276:android:250e84a105f5e837e10cc9",
+        "android_client_info": {
+          "package_name": "com.example.event_photo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520447223276-cvhk8bepnd24vpagml2otsh8ibtjtifd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.event_photo",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "520447223276-bsua9qtj3q0qgr61rsn4p9sji19dget4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU3vMHlTakqO9Nc65cjhOLMUlnyoyL8tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520447223276-bsua9qtj3q0qgr61rsn4p9sji19dget4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "520447223276-8pfm4g529q5jla87aec1o8j9deke9r6t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.eventphoto"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520447223276:android:5352cd7c4b458182e10cc9",
+        "android_client_info": {
+          "package_name": "com.mycompany.eventphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520447223276-afg9fdol717tjrlt63rr8o3skb1gvu60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.eventphoto",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "520447223276-bsua9qtj3q0qgr61rsn4p9sji19dget4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU3vMHlTakqO9Nc65cjhOLMUlnyoyL8tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520447223276-bsua9qtj3q0qgr61rsn4p9sji19dget4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "520447223276-8pfm4g529q5jla87aec1o8j9deke9r6t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.eventphoto"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
